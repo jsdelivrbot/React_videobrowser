@@ -1,0 +1,41 @@
+body{
+  height: 100%;
+  margin: 0; 
+  background-image: url("../src/assets/3132.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-bar input {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.video-item img {
+  max-width: 64px;
+  border-radius: 10px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  background-color: transparent !important;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
